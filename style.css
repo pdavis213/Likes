@@ -14,22 +14,17 @@
     display: flex;
     height: 100px;
     justify-content: space-around;
-    align-content: space-between;
+    align-items: center;
     flex-direction: column;
     background-color: whitesmoke;
     border: solid black 2px;
-    padding-left: 5px;
     width: 75px;
     font-size: 12px;
 }
 
 .rightPage {
-    margin: 10px;
-    padding: 10px;
-    background-color: aqua;
+    margin-left: 10px;
     width:200px;
-    border: solid black 2px;
-
 }
 
 .firstLine {
@@ -68,7 +63,7 @@ p{
 .header {
     background-color: white;
     color: black;
-    margin-left: 50%;
+    text-align: center;
     margin-top: 5px;
 }
 
@@ -85,4 +80,10 @@ img {
 
 .avatarInfo p4 {
     font-weight: bold;
+}
+
+.box{
+    margin: 10px 0px;
+    padding: 5px;
+    border: 2px solid darkslategray;
 }
